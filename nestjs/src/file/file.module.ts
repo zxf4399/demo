@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { FileController } from './index.controller';
+import { FileController } from './file.controller';
 
 @Module({
   controllers: [FileController],
