@@ -5,7 +5,7 @@ import { createReadStream } from 'fs';
 import { join } from 'path';
 
 @ApiTags('file')
-@Controller('file')
+@Controller()
 export class FileController {
   @Get('1')
   getFile1(@Res() res: Response) {
