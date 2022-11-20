@@ -1,8 +1,3 @@
-import { Foo } from "./a";
+import foo from "./foo"
 
-const foo: Foo = {
-  a: "a",
-  b: 1,
-};
-
-console.log(foo);
+console.log(foo)
